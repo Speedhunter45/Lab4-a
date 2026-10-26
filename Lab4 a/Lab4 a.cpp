@@ -55,4 +55,30 @@ void tablica() {
 		
 }
 */
+void wieksza(int a, int b);
+int a, b;
+int wk(int a, int b);
+int main() {
+	cin >> a;
+	cin >> b;
+	wk(a, b);
+	wieksza(a, b);
+	
+}
+void wieksza(int a, int b) {
+	if (a < b) {
+		cout << "b>a" <<endl;
+	}
+	if (a > b) {
+		cout << "b<a" <<endl;
+	}
+}
+int wk(int a, int b) {
+	if (a < b) {
+		return b;
+	}
+	if (a > b) {
+		return a;
+	}
+}
 
