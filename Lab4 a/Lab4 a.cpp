@@ -1,20 +1,58 @@
-﻿// Lab4 a.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-//
+﻿#include <iostream>
+using namespace std;
+/*
+int dodawanie(int a, int b); //funkcja (zwracajaca wynik typu int)
+void wyswietlanie(int a, int b); //funkcja bedaca procedura :)
 
-#include <iostream>
+int zmiennaGlobalna = 10;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+	
+	//kod 04_03
+	int a = 45, b = 25;
+	int suma = dodawanie(a, b);
+	cout << "Jesli dodam " << a << " do " << b << " to otrzymam " << suma << endl;
+	wyswietlanie(11, 22);
+	cout << "Zmienna globalna: " << zmiennaGlobalna << endl;
+	cout << "Wartosci a oraz b: " << a << " i " << b << endl;
+	return 0;
 }
 
-// Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
-// Debugowanie programu: F5 lub menu Debugowanie > Rozpocznij debugowanie
+int dodawanie(int a, int b) {
+	int wynik = a + b;
+	return wynik;
+}
 
-// Porady dotyczące rozpoczynania pracy:
-//   1. Użyj okna Eksploratora rozwiązań, aby dodać pliki i zarządzać nimi
-//   2. Użyj okna programu Team Explorer, aby nawiązać połączenie z kontrolą źródła
-//   3. Użyj okna Dane wyjściowe, aby sprawdzić dane wyjściowe kompilacji i inne komunikaty
-//   4. Użyj okna Lista błędów, aby zobaczyć błędy
-//   5. Wybierz pozycję Projekt > Dodaj nowy element, aby utworzyć nowe pliki kodu, lub wybierz pozycję Projekt > Dodaj istniejący element, aby dodać istniejące pliku kodu do projektu
-//   6. Aby w przyszłości ponownie otworzyć ten projekt, przejdź do pozycji Plik > Otwórz > Projekt i wybierz plik sln
+void wyswietlanie(int a, int b) {
+	cout << "Wynik procedury / funkcji z void: " << a + b << endl;
+	zmiennaGlobalna = 20;
+	a = 111;
+	b = 222;
+
+	*/
+/*
+//zad1
+void username(string urn);
+int main() {
+	string urn;
+	cin >> urn;
+	username(urn);
+	}
+
+void username(string urn) {
+	cout << "Cześć, " << urn;
+}
+*/
+/*
+//zad2
+void tablica();
+int main(){
+	tablica();
+	return 0;
+}
+void tablica() {
+	cout << (10 * 10) << endl;
+		
+}
+*/
+
